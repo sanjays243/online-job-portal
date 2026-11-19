@@ -24,7 +24,7 @@ export const CompanyDetailPage = ({ slug = 'it-infosys', onNavigate, onOpenApply
 
   const referenceJob = companyJobs[0] || jobs[0];
   const companyName = referenceJob?.company || 'IT Infosys co.';
-  const companyLogo = referenceJob?.companyLogo || '/html-img.jpg';
+  const companyLogo = referenceJob?.companyLogo || './html-img.jpg';
   const companyInfo = referenceJob?.companyInfo || {
     about: 'Leading technology consulting and global digital solutions enterprise powering modern digital businesses.',
     established: '21-05-2004',
@@ -56,7 +56,7 @@ export const CompanyDetailPage = ({ slug = 'it-infosys', onNavigate, onOpenApply
                 src={companyLogo} 
                 alt={companyName} 
                 className="company-hero-logo-img"
-                onError={(e) => { e.target.src = '/html-img.jpg'; }}
+                onError={(e) => { e.target.src = './html-img.jpg'; }}
               />
             </div>
 

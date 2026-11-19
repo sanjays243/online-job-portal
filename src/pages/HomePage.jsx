@@ -122,10 +122,10 @@ export const HomePage = ({ onNavigate, onOpenApply }) => {
           <div className="hero-visual">
             <div className="hero-image-card">
               <img 
-                src="/job-offers-concept.jpg" 
+                src="./job-offers-concept.jpg" 
                 alt="Job Search and Career Growth" 
                 className="hero-img-main"
-                onError={(e) => { e.target.src = '/top-view-desk-concept-with-gray-background_23-2148236825.jpg'; }}
+                onError={(e) => { e.target.src = './top-view-desk-concept-with-gray-background_23-2148236825.jpg'; }}
               />
               <div className="floating-stat-card top">
                 <div className="floating-stat-icon bg-success-light">

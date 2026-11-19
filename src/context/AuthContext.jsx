@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
         email: email,
         password: password,
         role: 'Job Seeker',
-        avatar: '/image-1.jpg'
+        avatar: './image-1.jpg'
       };
       setUser(newUser);
       return { success: true };
@@ -55,7 +55,7 @@ export const AuthProvider = ({ children }) => {
       email,
       password,
       role: role || 'Job Seeker',
-      avatar: '/image-2.jpg'
+      avatar: './image-2.jpg'
     };
     setUser(newUser);
     return { success: true };

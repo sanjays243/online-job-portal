@@ -75,7 +75,7 @@ export const JobProvider = ({ children }) => {
       featured: true,
       openings: Number(newJobData.openings) || 1,
       companyWebsite: newJobData.companyWebsite || 'https://company.example.com',
-      companyLogo: newJobData.companyLogo || '/html-img.jpg',
+      companyLogo: newJobData.companyLogo || './html-img.jpg',
       benefits: newJobData.benefits || ['Flexible work hours', 'Healthcare', 'Learning budget'],
       requirements: newJobData.requirements || [
         { label: 'Education', value: newJobData.education || "Bachelor's degree" },

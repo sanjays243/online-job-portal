@@ -23,7 +23,7 @@ export const PostJobPage = ({ onNavigate }) => {
     title: '',
     company: user?.role === 'Employer' ? user.name : 'TechNova Corp',
     companySlug: 'technova',
-    companyLogo: '/react-imh.jpg',
+    companyLogo: './react-imh.jpg',
     companyWebsite: 'https://technova.example.com',
     location: 'Bengaluru, India',
     category: 'Development & IT',
@@ -134,15 +134,15 @@ export const PostJobPage = ({ onNavigate }) => {
                       onChange={handleChange}
                       className="input"
                     >
-                      <option value="/react-imh.jpg">React Tech Logo</option>
-                      <option value="/html-img.jpg">HTML / Infosys Logo</option>
-                      <option value="/css-img.jpg">CSS / Design Logo</option>
-                      <option value="/js-img.jpg">JavaScript Logo</option>
-                      <option value="/php-img.jpg">PHP / Cloud Logo</option>
-                      <option value="/mysql-img.jpg">MySQL Database Logo</option>
-                      <option value="/ruby-img.jpg">Ruby Logo</option>
-                      <option value="/java-img.jpg">Java Enterprise Logo</option>
-                      <option value="/image-python.jpg">Python AI Logo</option>
+                      <option value="./react-imh.jpg">React Tech Logo</option>
+                      <option value="./html-img.jpg">HTML / Infosys Logo</option>
+                      <option value="./css-img.jpg">CSS / Design Logo</option>
+                      <option value="./js-img.jpg">JavaScript Logo</option>
+                      <option value="./php-img.jpg">PHP / Cloud Logo</option>
+                      <option value="./mysql-img.jpg">MySQL Database Logo</option>
+                      <option value="./ruby-img.jpg">Ruby Logo</option>
+                      <option value="./java-img.jpg">Java Enterprise Logo</option>
+                      <option value="./image-python.jpg">Python AI Logo</option>
                     </select>
                   </div>
                 </div>

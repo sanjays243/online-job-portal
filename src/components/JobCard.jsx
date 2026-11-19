@@ -33,10 +33,10 @@ export const JobCard = ({ job, onSelectJob, onApply, onSelectCompany }) => {
         <div className="company-info-flex" onClick={handleCompanyClick}>
           <div className="company-logo-wrap">
             <img 
-              src={job.companyLogo || '/html-img.jpg'} 
+              src={job.companyLogo || './html-img.jpg'} 
               alt={job.company} 
               className="company-logo-img"
-              onError={(e) => { e.target.src = '/html-img.jpg'; }}
+              onError={(e) => { e.target.src = './html-img.jpg'; }}
             />
           </div>
           <div>

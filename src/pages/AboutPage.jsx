@@ -31,10 +31,10 @@ export const AboutPage = ({ onNavigate }) => {
           <div className="about-image-column">
             <div className="about-image-wrap">
               <img 
-                src="/job-offers-concept.jpg" 
+                src="./job-offers-concept.jpg" 
                 alt="JobHunt Office Collaboration" 
                 className="about-image-element"
-                onError={(e) => { e.target.src = '/top-view-desk-concept-with-gray-background_23-2148236825.jpg'; }}
+                onError={(e) => { e.target.src = './top-view-desk-concept-with-gray-background_23-2148236825.jpg'; }}
               />
               <div className="experience-badge-floating">
                 <h3>10+</h3>
@@ -174,7 +174,7 @@ export const AboutPage = ({ onNavigate }) => {
                     src={review.image} 
                     alt={review.name} 
                     className="review-user-avatar"
-                    onError={(e) => { e.target.src = '/image-1.jpg'; }}
+                    onError={(e) => { e.target.src = './image-1.jpg'; }}
                   />
                   <div>
                     <h5 className="review-user-name">{review.name}</h5>

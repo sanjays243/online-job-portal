@@ -100,7 +100,7 @@ export const Navbar = ({ currentPage, onNavigate }) => {
                 aria-label="User account"
               >
                 <img 
-                  src={user.avatar || '/image-1.jpg'} 
+                  src={user.avatar || './image-1.jpg'} 
                   alt={user.name} 
                   className="user-avatar"
                 />

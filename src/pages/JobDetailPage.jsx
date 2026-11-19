@@ -65,10 +65,10 @@ export const JobDetailPage = ({ jobId, onNavigate, onOpenApply }) => {
           <div className="job-hero-layout">
             <div className="company-logo-large-wrap">
               <img 
-                src={job.companyLogo || '/html-img.jpg'} 
+                src={job.companyLogo || './html-img.jpg'} 
                 alt={job.company}
                 className="company-logo-large"
-                onError={(e) => { e.target.src = '/html-img.jpg'; }}
+                onError={(e) => { e.target.src = './html-img.jpg'; }}
               />
             </div>
 
